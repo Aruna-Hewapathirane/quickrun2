@@ -1,0 +1,18 @@
+object Form3: TForm3
+  Left = 566
+  Height = 206
+  Top = 419
+  Width = 252
+  Caption = 'Calendar'
+  ClientHeight = 206
+  ClientWidth = 252
+  LCLVersion = '3.4.0.0'
+  object Calendar1: TCalendar
+    Left = 16
+    Height = 190
+    Top = 8
+    Width = 220
+    DateTime = 45670
+    TabOrder = 0
+  end
+end

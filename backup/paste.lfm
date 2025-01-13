@@ -1,0 +1,44 @@
+object Form4: TForm4
+  Left = 887
+  Height = 349
+  Top = 31
+  Width = 713
+  Caption = 'Form4'
+  ClientHeight = 349
+  ClientWidth = 713
+  LCLVersion = '3.4.0.0'
+  object Edit1: TEdit
+    Left = 18
+    Height = 35
+    Top = 20
+    Width = 472
+    TabOrder = 0
+    Text = 'TYpe What you want to CUT/COPY here then press cut/copy button'
+  end
+  object Button1: TButton
+    Left = 24
+    Height = 25
+    Top = 64
+    Width = 75
+    Caption = 'Cut/Copy'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 24
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = 'Paste'
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+  object Edit2: TEdit
+    Left = 24
+    Height = 35
+    Top = 120
+    Width = 273
+    TabOrder = 3
+    Text = 'Edit2'
+  end
+end

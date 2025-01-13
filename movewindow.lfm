@@ -1,0 +1,27 @@
+object Form5: TForm5
+  Left = 1206
+  Height = 240
+  Top = 297
+  Width = 320
+  Caption = 'Move Window'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  LCLVersion = '3.4.0.0'
+  object Memo1: TMemo
+    Left = 14
+    Height = 210
+    Top = 14
+    Width = 294
+    Lines.Strings = (
+      'Use Keyboard Arrow Keys to Move:'
+      ''
+      'LEFT   : Left Arrow'
+      'Down : Down Arrow'
+      'RIGHT: Right Arrow'
+      'UP        : Up Arrow'
+    )
+    TabOrder = 0
+  end
+end

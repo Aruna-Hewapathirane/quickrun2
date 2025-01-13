@@ -1,0 +1,21 @@
+object Form6: TForm6
+  Left = 657
+  Height = 240
+  Top = 402
+  Width = 320
+  Caption = 'HELP Form'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '3.4.0.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 240
+    Top = 0
+    Width = 320
+    Align = alClient
+    Lines.Strings = (
+      'You can have your help here...'
+    )
+    TabOrder = 0
+  end
+end

@@ -1,0 +1,86 @@
+object Form1: TForm1
+  Left = 331
+  Height = 452
+  Top = 357
+  Width = 741
+  Caption = 'Slick Run Lazarus Port V0.01'
+  ClientHeight = 452
+  ClientWidth = 741
+  LCLVersion = '3.4.0.0'
+  object Edit1: TEdit
+    Left = 0
+    Height = 35
+    Top = 0
+    Width = 741
+    Align = alTop
+    PopupMenu = PopupMenu1
+    TabOrder = 0
+    Text = 'Type here to Launch...'
+  end
+  object DateTimePicker1: TDateTimePicker
+    Left = 0
+    Height = 25
+    Top = 427
+    Width = 741
+    CenturyFrom = 1941
+    MaxDate = 2958465
+    MinDate = -53780
+    TabOrder = 1
+    TrailingSeparator = False
+    TextForNullDate = 'NULL'
+    LeadingZeros = True
+    Align = alBottom
+    Visible = False
+    Kind = dtkDate
+    TimeFormat = tf24
+    TimeDisplay = tdHMS
+    DateMode = dmComboBox
+    Date = 45670
+    Time = 0.38358101851918
+    UseDefaultSeparators = True
+    HideDateTimeParts = []
+    MonthNames = 'Long'
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 264
+    Top = 224
+    object MenuItem1: TMenuItem
+      Caption = 'Exit'
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Paste'
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Cut'
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'Calendar'
+      OnClick = MenuItem4Click
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'Jot'
+      OnClick = MenuItem5Click
+    end
+    object MenuItem6: TMenuItem
+      Caption = 'Help'
+    end
+    object MenuItem7: TMenuItem
+      Caption = 'Application Setup'
+    end
+    object MenuItem8: TMenuItem
+      Caption = 'Hide in system tray'
+    end
+    object MenuItem9: TMenuItem
+      Caption = 'Move floating window using keyboard'
+    end
+    object MenuItem10: TMenuItem
+      Caption = 'Lock size and position of floating input box'
+    end
+    object MenuItem11: TMenuItem
+      Caption = 'New magic word'
+    end
+    object MenuItem12: TMenuItem
+      Caption = 'List magic words'
+    end
+  end
+end
